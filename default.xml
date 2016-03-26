@@ -4,9 +4,6 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
            
-  <remote  name="mm"
-           fetch="https://github.com/experienceRCOS" />
-           
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
