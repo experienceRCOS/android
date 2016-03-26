@@ -1,16 +1,22 @@
-The Android Open Source Project Marsmallow 6.0.1
+The Android Open Source Project Marshmallow 6.0.1
+===========
+
 To initialize your local repository using the AOSP trees, use a command like this:
-
-repo init -u git://github.com/experienceRCOS/android.git -b aosp-6.0
+````bash
+repo init -u git://github.com/MM-AOSP/manifest.git -b mm6.0
+```
 Then to sync up:
-
+````bash
 repo sync
+```
 Finally to build:
-
+````bash
 ./build.sh device_codename
+```
 Example:
-
+````bash
 ./build.sh falcon
+```
 
 Buildbot
 --------
