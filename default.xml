@@ -5,9 +5,9 @@
            review="android-review.googlesource.com" />
            
   <remote  name="mm"
-           fetch="https://github.com/MM-AOSP" />
+           fetch="https://github.com/experienceRCOS" />
            
-  <default revision="refs/tags/android-6.0.1_r10"
+  <default revision="refs/tags/android-6.0.1_r22"
            remote="aosp"
            sync-j="4" />
   
