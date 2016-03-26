@@ -7,12 +7,16 @@
   <remote  name="mm"
            fetch="https://github.com/experienceRCOS" />
            
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+           
   <default revision="refs/tags/android-6.0.1_r22"
            remote="aosp"
            sync-j="4" />
   
   <!-- BEGIN MM -->
-  <project path="build" name="android_build" groups="pdk" remote="mm" revision="mm6.0" >
+  <project path="platform/build" name="CyanogenMod/android_build" remote="github" revision="cm-13.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
