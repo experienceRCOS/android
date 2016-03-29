@@ -20,8 +20,8 @@
    <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
   <!-- END SANDPOX'S DEVICE -->
   
-  <!-- BEGIN MM -->
-  <project path="platform/build" name="CyanogenMod/android_build" remote="github" revision="cm-13.0" >
+  <!-- BEGIN BUILD SYSTEM -->
+  <project path="build" name="platform/build" remote="aosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
